@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Shell in HTML</title>
+    
+    <!-- Load PyScript CSS and JS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+</head>
+<body>
+    <h3>Interactive Python Terminal</h3>
+    <p>Type any Python code below and press Shift+Enter or click run to execute it:</p>
+
+    <!-- PyScript REPL (Interactive Shell) Component -->
+    <py-repl>
+        x = 10
+        y = 20
+        print(f"The sum is: {x + y}")
+    </py-repl>
+</body>
+</html>
